@@ -71,18 +71,73 @@ body {
   <main>
     <h4>Current Projects</h4>
 
+    <img style="width: 637px; height: 701px; float: left; padding:5px 10px 5px 0px;" src="./images/nature_fig.png"
+	     alt="COVID19" width="423" height="500" hspace="10">
+
+
+	    <font size= "+1">
+
+	    <p><strong>Chemical Environment Adaptive Learning for Optical Band Gap Prediction of Doped Graphitic Carbon Nitride Nanosheets:</strong>
+	    Graphitic carbon nitride (g-C<sub>3</sub>N<sub>4</sub>) and its doped variants have sparked significant interest for their potential as optical materials.
+	    Accurate prediction of their band gaps is crucial for practical applications, however, it is extremely challenging and computationally expensive to explore all
+	    possible doped molecular structures using traditional quantum simulation methods. In this study, we leverage the recent success of graph neural networks (GNNs)
+	    and developed a novel Chemical Graph Neural Network (ChemGNN) with adaptive learning for material property prediction. The proposed ChemGNN can satisfactorily
+	    capture the characteristics of atoms' local chemical environment and greatly enhance the learning ability of complex molecular structures. Our benchmark results
+	    demonstrate a more than 100% improvement in band gap prediction accuracy over existing GNNs on g-C3N4 and its doped variant. Moreover, the proposed model's
+	    learning power is promising, and it can be potentially applied to predicting other structure-dependent molecular properties, such as nuclear magnetic resonance
+	    chemical shifts. Overall, the ChemGNN model offers a promising approach to enhance predictions of molecular properties, which could have broad applications
+	    in various fields, including material science, drug discovery, and computational chemistry. Submitted to <em>Nature Communications</em>.
+
+	    <a href="https://arxiv.org/abs/2302.09539" target="_blank">Preprint: Chemical Environment Adaptive Learning for
+	    Optical Band Gap Prediction of Doped Graphitic Carbon Nitride Nanosheets</a>
+	    <br style="clear:left">
+    </p>
+
+
+
+
+
+
+
+
+    <img style="width: 423px; height: 500px; float: left; padding:5px 10px 5px 0px;" src="./images/covid.png"
+     alt="COVID19" width="423" height="500" hspace="10">
+
+    <font size= "+1">
+
+    <p><strong>Study the molecular mechanism of SARS-CoV-2 spike protein binding to human cell receptor ACE<sub>2</sub>:</strong>
+    Allosteric regulation is common in protein-protein interactions and is thus promising in drug design. Nevertheless, the mechanism of
+    allosteric regulation remains elusive for most proteins, including SARS-CoV-2 spike protein, despite extensive experimental endeavors
+    over the past years. In the present computational study, the route of allosteric regulation of SARS-CoV-2 spike protein is examined by
+    all-atom explicit solvent molecular dynamics simulations in conjunction with contrastive machine learning. It was found that peptide
+    binding to the polybasic cleavage sites, especially the one at the first monomer of the trimeric spike protein, activates the fluctuation
+    of the spike protein’s backbone. This fluctuation eventually propagates to the nitrogen-terminal domain and its neighboring receptor-binding
+    domain, remarkably weakening the latter’s binding affinity to the human cell receptor ACE2. Our study justifies the presence of allosteric
+    regulation in SARS-CoV-2 spike protein, paving the way for the rational design of allosteric antibody inhibitors.
+
+    <a href="https://chemrxiv.org/engage/chemrxiv/article-details/63ad129516e9a8132138579a" target="_blank">Preprint: Allosteric Regulation of
+    SARS-CoV-2 Spike Protein Revealed by Contrastive Machine Learning</a>
+    <br style="clear:left">
+    </p>
+
+
     <img style="width: 312px; height: 188px; float: left;padding:5px 10px 5px 0px;" src="./images/folding_path.png"
      alt="Folding Path" width="312" height="188" hspace="10">
 
-    <font size= "+1">
+
     <p><strong>Protein Folding Path Study using Self-supervised Learning:</strong> One of my ongoing projects is to use deep learning models to study the protein molecule structure evolution during the adsorption process
-    on interfaces. In our preliminary investigation published recently in <a href="https://pubs.acs.org/doi/10.1021/acs.jctc.0c01172" target="_blank">the Journal of
+    on interfaces. In our preliminary investigation published in <a href="https://pubs.acs.org/doi/10.1021/acs.jctc.0c01172" target="_blank">the Journal of
     Chemical Theory and Computation</a>, a computational efficient discontinuous molecular dynamics (DMD) simulation combined with the Go-like model is used to study
     peptide/protein adsorption behavior. The simulated adsorption process can be represented by the adsorption trajectory and the effects of surface to the protein/peptide
     structure can be represented by the secondary structure and contact map evolution. A contact map is a two-dimensional matrix, in which the value at location
     (<i>i</i>, <i>j</i>) is the distance between the alpha-carbons in the <i>i-th</i> and <i>j-th</i> amino acid in the chain. Self-supervised deep learning models will be trained to extract
     a representation of contact map data. The representatio will then be clustered to segment the evolution processes into stages. Each stage represents
-    a phase of the protein molecule structure in the adsorption process.<br style="clear:left">
+    a phase of the protein molecule structure in the adsorption process. </p>
+
+    <p>The preliminary results of protein folding paths obtained by a self-supervised machine learning model are in <a href="https://pubs.acs.org/doi/full/10.1021/acs.langmuir.2c01331" target="_blank">
+    the paper</a> "Graph Clustering Analyses of Discontinuous Molecular Dynamics Simulations: Study of Lysozyme Adsorption on a Graphene Surface". The paper is accepted by the ACS
+    <a href="https://pubs.acs.org/journal/langd5" target="_blank">LANGMUIR</a> (<u>h-index</u>: 346, <u>impact factor</u>: 4.331).
+    <br style="clear:left">
     </p>
 
 
@@ -97,6 +152,31 @@ body {
   <h4>On Going Research Updates</h4>
   <font size="+1">
   <ul style="line-height:1.5;">
+
+  <li><i>February, 2023:</i> <a href="https://pubs.acs.org/doi/full/10.1021/acs.langmuir.2c01331" target="_blank">The paper</a> "Chemical Environment Adaptive
+          Learning for Optical Band Gap Prediction of Doped Graphitic Carbon Nitride Nanosheets" has been submitted to
+          <a href="https://pubs.acs.org/journal/langd5" target="_blank">Nature Communications</a> (<u>h-index</u>: 410, <u>impact factor</u>: 17.69). A Novel ChemGNN model was
+          proposed. The model uses the adaptive aggregation mechanism to extract deep insight from atoms’ local chemical environment, addressing the limits of using single
+          aggregation. Experimental results show that the proposed model can significantly improve the optical band gap prediction of graphitic carbon nitride nanosheets
+          and the doped variants. Moreover, the proposed model's learning power is promising, and it can be potentially applied to predicting other structure-dependent
+          molecular properties, such as nuclear magnetic resonance chemical shifts. Overall, the ChemGNN model offers a promising approach to enhance predictions of
+          molecular properties, which could have broad applications in various fields, including material science, drug discovery, and computational chemistry.
+          </li>
+    <br>
+
+  <li><i>August, 2022:</i> <a href="https://pubs.acs.org/doi/full/10.1021/acs.langmuir.2c01331" target="_blank">The paper</a> "Graph Clustering Analyses of Discontinuous Molecular Dynamics Simulations: Study of Lysozyme Adsorption on a Graphene Surface" is accepted by
+        the ACS <a href="https://pubs.acs.org/journal/langd5" target="_blank">LANGMUIR</a> (<u>h-index</u>: 346, <u>impact factor</u>: 4.331). Understanding interfacial behaviors
+        of biomolecules is crucial to applications in biomaterials and nanoparticle-based biosensing technologies. In this work, we utilized self-supervised deep learning to
+        analyze discontinuous molecular dynamics (DMD) simulations of lysozyme adsorption on a graphene surface. The folding stages obtained by the machine learning algorithm
+        were consistent with detailed analyses of protein structure. The combination of self-supervised machine learning analysis and efficient DMD simulations developed in
+        this work could be an important tool to study biomolecules’ interfacial behaviors
+        </li>
+    <br>
+
+  <li><i>May, 2022:</i> The manuscript "Graph Clustering Analyses of Discontinuous Molecular Dynamics Simulations: Study of Lysozyme Adsorption on a Graphene Surface" is submitted to
+      the ACS <a href="https://pubs.acs.org/journal/langd5" target="_blank">LANGMUIR</a> (<u>h-index</u>: 346, <u>impact factor</u>: 4.331).
+      </li>
+    <br>
 
   <li><i>April, 2022:</i> An NSF RUI Collaborative proposal ($0.5 million) has been submitted. Title of the proposal:
       Development of Novel Machine Learning-Based Rapid Metabolomic and Biological Process Identification.
@@ -193,13 +273,16 @@ body {
   <footer>
   <font size="-1">
   <hr align="left" color="#990000" width="100%">
-  <i>Last updated: May 2022</i>.
+  <i>Last updated: February 2023</i>.
   <br>
   <font size="-2">
   <div style="text-align: center;"><small><font face="Times New Roman" size="2"><small>This
   page is not a publication of High Point University (HPU) and HPU has not edited or examined the content of the page.&nbsp; </small></font><br>
   <font face="Times New Roman" size="2"><small>The author(s) of the page are solely responsible for the content.<br>
   <br>
+
+  <a href="https://clustrmaps.com/site/1btk9">
+  <img src="//www.clustrmaps.com/map_v2.png?d=fsBi5oJRjYLgUdiXhv0xio01UOb6UfCj3L9ms4FRj0A&cl=ffffff" width="90" height="60" /></a>
 
   </footer>
 
